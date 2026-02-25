@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ title | safe }}</title>
+  <meta name="description" content="Personal writing by Mrunal Madinur." />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <a class="site-title" href="/">Mrunal Madinur</a>
+      </div>
+      <nav class="primary-nav" role="navigation" aria-label="Primary">
+        <a href="/" class="nav-link" aria-current="page">Writing</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <main>
+      {{{ content }}}
+    </main>
+
+    <footer class="footer">
+      <div>© 2026 Mrunal Madinur</div>
+    </footer>
+  </div>
+</body>
+</html>
